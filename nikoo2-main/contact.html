@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    
+    <header class="header visible">
+        <a class="logo" href="index.html">N.Jabanashvili</a>
+
+        <!-- Burger Button for Mobile -->
+        <div class="burger" id="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <!-- Nav Links -->
+        <nav id="nav-links">
+            <a href="Fighters.html">Fighters <hr></a>
+            <a href="event.html">Events </a>
+            <a href="login.html">Log in/Sign up</a>
+            <a href="favs.html">Pick Favorites</a>
+        </nav>
+    </header>
+
+
+
+    <main>
+  <div class="form-box">
+    <h2>Custom Shorts Order</h2>
+
+    <form>
+      <label for="name">Name</label>
+      <input id="name" type="text" placeholder="Enter your name">
+
+      <label for="lastname">Last Name</label>
+      <input id="lastname" type="text" placeholder="Enter your last name">
+
+      <label for="country">Country</label>
+      <input id="country" type="text" placeholder="Country">
+
+      <label for="state">State</label>
+      <input id="state" type="text" placeholder="State">
+
+      <label for="street">Street Name</label>
+      <input id="street" type="text" placeholder="Street name">
+
+      <label for="shorts">Which custom shorts</label>
+      <select id="shorts">
+        <option value="">Select option</option>
+        <option>High split MMA shorts</option>
+        <option>Low split MMA shorts</option>
+        <option>No split shorts</option>
+      </select>
+
+      <label for="notes">Shorts modifications</label>
+      <textarea id="notes" placeholder="Write any special request..."></textarea>
+
+      <button type="submit">Submit Order</button>
+    </form>
+  </div>
+
+    </main>
+
+
+    <script src="contact.js"></script>
+</body>
+</html>
